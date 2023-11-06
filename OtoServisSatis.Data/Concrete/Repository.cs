@@ -1,13 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OtoServisSatis.Data.Abstract;
 using OtoServisSatis.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OtoServisSatis.Data.Concrete
 {
@@ -82,7 +76,7 @@ namespace OtoServisSatis.Data.Concrete
             return _context.SaveChanges();
         }
 
-        public async Task<int> SaveAsyn()
+        public async Task<int> SaveAsync()
         {
             return await _context.SaveChangesAsync();
         }
