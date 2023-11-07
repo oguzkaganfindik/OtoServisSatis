@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OtoServisSatis.Servis\OtoServisSatis.Servis.csproj" />
+    <ProjectReference Include="..\OtoServisSatis.Servis\OtoServisSatis.Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
