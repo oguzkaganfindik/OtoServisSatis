@@ -34,5 +34,6 @@ namespace OtoServisSatis.Entities
 
         [Display(Name = "Kullanıcı Rolü")]
         public virtual Rol? Rol { get; set; }
+        public Guid? UserGuid { get; set; } = Guid.NewGuid();
     }
 }
